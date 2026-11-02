@@ -1,0 +1,27 @@
+LUZ ROJA · APP PARA ANDROID (PWA)
+
+Archivos
+  index.html               La aplicación
+  manifest.webmanifest     Nombre, ícono y colores de la app instalada
+  sw.js                    Permite usarla sin internet
+  icons/                   Íconos para la pantalla de inicio
+
+Publicar en GitHub Pages (gratis)
+  1. Entre a github.com y cree un repositorio público, por ejemplo "luz-roja".
+  2. Pulse "Add file" > "Upload files" y arrastre TODO el contenido de esta carpeta
+     (index.html, manifest.webmanifest, sw.js y la carpeta icons). Pulse "Commit changes".
+  3. Vaya a Settings > Pages. En "Branch" elija "main" y la carpeta "/ (root)". Guarde.
+  4. Espere 1 o 2 minutos. La dirección será: https://SU-USUARIO.github.io/luz-roja/
+
+Instalar en el teléfono Android
+  1. Abra la dirección en Chrome.
+  2. Toque el menú (tres puntos) > "Instalar aplicación" o "Agregar a pantalla principal".
+  3. Abra Luz Roja desde el ícono. Funciona a pantalla completa y sin internet.
+
+Actualizar la app
+  Suba el nuevo index.html al mismo repositorio. Para forzar la actualización en los
+  teléfonos, cambie en sw.js la línea  const CACHE = 'luz-roja-v1';  a  'luz-roja-v2'.
+
+Importante
+  - Cada teléfono guarda su propio historial y planificación.
+  - El historial de la versión de claude.ai no pasa a esta versión.
